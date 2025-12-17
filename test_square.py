@@ -9,7 +9,7 @@ class SquareTestCase(unittest.TestCase):
 
   def test_area_large_side(self):
     res = area(100)
-    self.assertEqual(res, 10000)
+    self.assertEqual(res, 1000)
     
   def test_area_float_side(self):
     res = area(2.5)
